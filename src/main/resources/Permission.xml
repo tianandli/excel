@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <module value="department" name="部门管理">
+        <permission value="department_search" name="查询" />
+        <permission value="department_create" name="添加" />
+        <permission value="department_edit" name="修改" />
+        <permission value="department_delete" name="删除" />
+    </module>
+    <module value="country" name="国家管理">
+        <permission value="country_search" name="查询" />
+        <permission value="country_create" name="添加" />
+        <permission value="country_edit" name="修改" />
+        <permission value="country_delete" name="删除" />
+    </module>
+    <module value="countryVATRate" name="国家税率">
+        <permission value="countryVATRate_search" name="查询" />
+        <permission value="countryVATRate_create" name="添加" />
+        <permission value="countryVATRate_edit" name="修改" />
+        <permission value="countryVATRate_delete" name="删除" />
+    </module>
+    <module value="exchangeRate" name="汇率管理">
+        <permission value="exchangeRate_search" name="查询" />
+        <permission value="exchangeRate_create" name="添加" />
+        <permission value="exchangeRate_edit" name="修改" />
+        <permission value="exchangeRate_delete" name="删除" />
+    </module>
+    <module value="formFielde" name="税号字段">
+        <permission value="formFielde_search" name="查询" />
+        <permission value="formFielde_create" name="添加" />
+        <permission value="formFielde_edit" name="修改" />
+        <permission value="formFielde_delete" name="删除" />
+    </module>
+    <module value="role" name="角色">
+        <permission value="rolesearch" name="查询" />
+        <permission value="rolecreate" name="添加" />
+        <permission value="roleedit" name="修改" />
+        <permission value="roleenble" name="禁用/启用" />
+        <permission value="rolesetPermission" name="权限设置" />
+    </module>
+    <module value="adminAccount" name="管理员账号">
+        <permission value="adminAccount_search" name="查询" />
+        <permission value="adminAccount_create" name="添加" />
+        <permission value="adminAccount_edit" name="修改" />
+        <permission value="adminAccount_delete" name="禁用/启用" />
+        <permission value="adminAccount_reset" name="重置密码" />
+        <permission value="adminAccount_binding" name="绑定商户" />
+    </module>
+    <module value="merchant" name="商户管理">
+        <permission value="merchant_sup_search" name="超级查询" />
+        <permission value="merchant_search" name="查询" />
+        <permission value="merchant_create" name="添加" />
+        <permission value="merchant_edit" name="修改" />
+        <permission value="merchant_binding" name="绑定/解绑客服" />
+        <permission value="merchant_delete" name="禁用/启用" />
+    </module>
+    <module value="merchantAccount" name="商户账号">
+        <permission value="merchantAccount_search" name="查询" />
+        <permission value="merchantAccount_create" name="添加" />
+        <permission value="merchantAccount_edit" name="修改" />
+        <permission value="merchantAccount_delete" name="禁用/启用" />
+    </module>
+    <module value="company" name="公司管理">
+        <permission value="company_search" name="查询" />
+        <permission value="company_create" name="添加" />
+        <permission value="company_edit" name="修改" />
+        <permission value="company_delete" name="删除" />
+        <permission value="company_amazonManage" name="亚马逊令牌管理" />
+    </module>
+    <module value="payAccount" name="税金账号">
+        <permission value="payAccount_search" name="查询" />
+        <permission value="payAccount_create" name="添加" />
+        <permission value="payAccount_edit" name="修改" />
+        <permission value="payAccount_delete" name="删除" />
+    </module>
+    <module value="adminPayAccount" name="会计师税金账号">
+        <permission value="adminPayAccount_search" name="查询" />
+        <permission value="adminPayAccount_create" name="添加" />
+        <permission value="adminPayAccount_edit" name="修改" />
+        <permission value="adminPayAccount_delete" name="删除" />
+    </module>
+    <module value="VAT" name="税号管理">
+        <permission value="VAT_search_super" name="超级查询" />
+        <permission value="VAT_search" name="客服查询" />
+        <permission value="VAT_accountSearch" name="会计师查询" />
+        <permission value="VAT_create" name="添加" />
+        <permission value="VAT_edit" name="修改" />
+        <permission value="VAT_audit" name="初审" />
+        <permission value="VAT_review" name="复审" />
+        <permission value="VAT_management" name="合同管理" />
+        <permission value="VAT_setAccountant" name="分配会计师" />
+        <permission value="VAT_submit" name="提交税局" />
+    </module>
+    <module value="VATService" name="税号服务">
+        <permission value="VATService_search" name="查询" />
+        <permission value="VATService_create" name="管理" />
+    </module>
+    <module value="declare" name="申报管理">
+        <permission value="declare_search" name="查询" />
+        <permission value="declare_create" name="资料添加" />
+        <permission value="declare_edit" name="资料修改" />
+        <permission value="declare_audit" name="初审" />
+        <permission value="declare_review" name="复审" />
+        <permission value="declare_calculate" name="计算" />
+        <permission value="declare_write" name="税金填写" />
+        <permission value="declare_confirmTaxes" name="税金确认" />
+        <permission value="declare_confirmPay" name="确认支付" />
+        <permission value="declare_receipt" name="回执上传" />
+        <permission value="declare_voucher" name="支付凭证上传" />
+        <permission value="declare_submit" name="提交税局" />
+    </module>
+    <module value="declareYyear" name="年度申报">
+        <permission value="declareYyear_search" name="查询" />
+        <permission value="declareYyear_create" name="管理" />
+    </module>
+    <module value="package" name="套餐管理">
+        <permission value="package_search" name="查询" />
+        <permission value="package_create" name="添加" />
+        <permission value="package_edit" name="修改" />
+        <permission value="package_drop" name="上下架" />
+        <permission value="package_delete" name="删除" />
+    </module>
+    <module value="order" name="订单管理">
+        <permission value="order_search" name="查询" />
+        <permission value="order_audit" name="支付确认" />
+        <permission value="order_invoice" name="开票" />
+    </module>
+    <module value="payLog" name="支付日志">
+        <permission value="payLog_search" name="查询" />
+    </module>
+</configuration>
